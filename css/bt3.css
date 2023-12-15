@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main {
+    text-align: center;
+}
+.main > h3 {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+.main > p {
+    margin-top: 20px;
+}
+.item-1 {
+    width: 30%;
+    text-align: center;
+    padding: 2rem 1rem 0;
+}
+.item {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.item-1 > img {
+    width: 100px;
+}
+
+.item-1 > h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.item-1 > p {
+    margin-bottom: 10px;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333f9d;
+    color: white;
+    border: 1px solid #333f9d;
+}
